@@ -22,7 +22,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rubocop', '>= 0.28.0'
 
-  spec.add_dependency 'ruboty', '>= 1.1.4'
+  #spec.add_dependency 'ruboty', '>= 1.1.4'
+  spec.add_dependency 'ruboty'
   spec.add_dependency 'slack-api', '~> 1.6'
   spec.add_dependency 'websocket-client-simple', '>= 0.5.0'
   #spec.add_dependency 'faraday', '~> 0.11'
